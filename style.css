@@ -1,0 +1,94 @@
+body {
+    background-image: url(/pics/mine.jpeg);
+    background-size: cover;
+    padding-top:1rem;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    margin: 20px;
+    font-size : 40px;
+    color: rgb(230, 230, 230);
+    font-family: 'Press Start 2P', cursive;
+    width: 1000px;
+  }
+
+
+.goldtitle {
+    color: rgb(248, 186, 16);
+    display: inline-block;
+}
+
+h2 {
+    color: rgb(246, 255, 246);
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 40px;
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+
+.player-area {
+    margin: 0px 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+p{
+    font-size: 1rem;
+    color:white; 
+    font-family: 'Press Start 2P', cursive;}
+
+.rotate {
+    width: 250px;
+    color: rgb(37, 31, 31);
+    background-attachment: fixed;
+    animation: rotation 10s infinite linear
+}
+
+button{
+  align-items: center;
+  background-color: initial;
+  background-image: url(/pics/gold.jpeg);
+  background-size: cover;
+  border-radius: 8px;
+  border-width: 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .1),0 3px 6px rgba(0, 0, 0, .05);
+  box-sizing: border-box;
+  color: rgb(36, 36, 36);
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  font-family: 'WALL STONES', sans-serif;
+  font-size: 25px;
+  height: 52px;
+  justify-content: center;
+  line-height: 1;
+  margin-left: 630px;
+  margin-top:75px;
+  outline: none;
+  overflow: hidden;
+  padding: 0 32px;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all 150ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+#btn-start:hover {
+  box-shadow: rgba(0, 1, 0, .2) 0 2px 8px;
+  opacity: .85;
+}
+
+#btn-start:active {
+  opacity: 0.5;
+}
+
+
+  
